@@ -7,7 +7,7 @@ import router from 'vue-router';
 components.forEach(compon =>{
   Vue.component(compon.name, compon)
 });
-
+Vue.use(VueRouter)
  new Vue({
    router, 
  //render: h => h(App), 
